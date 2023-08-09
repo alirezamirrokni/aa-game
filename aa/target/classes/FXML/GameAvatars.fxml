@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="@../Style.css"
+            fx:controller="view.GameAvatars"
+            prefHeight="420.0" prefWidth="400.0">
+    <center>
+        <VBox alignment="CENTER" spacing="12">
+            <HBox alignment="CENTER" spacing="12">
+                <ImageView fx:id="img1" onMouseClicked="#image1"/>
+                <ImageView fx:id="img2" onMouseClicked="#image2"/>
+                <ImageView fx:id="img3" onMouseClicked="#image3"/>
+            </HBox>
+            <HBox alignment="CENTER" spacing="12">
+                <ImageView fx:id="img4" onMouseClicked="#image4"/>
+                <ImageView fx:id="img5" onMouseClicked="#image5"/>
+                <ImageView fx:id="img6" onMouseClicked="#image6"/>
+            </HBox>
+            <HBox alignment="CENTER" spacing="12">
+                <ImageView fx:id="img7" onMouseClicked="#image7"/>
+                <ImageView fx:id="img8" onMouseClicked="#image8"/>
+                <ImageView fx:id="img9" onMouseClicked="#image9"/>
+            </HBox>
+        </VBox>
+    </center>
+
+</BorderPane>

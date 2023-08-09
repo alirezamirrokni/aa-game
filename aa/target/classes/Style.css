@@ -1,0 +1,31 @@
+Button {
+    -fx-max-width: 200;
+    -fx-background-color:
+            linear-gradient(darkgray, black),
+            linear-gradient(lightgray, darkgray),
+            linear-gradient(gray, black),
+            linear-gradient(gray 0%, black 70%, black 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+
+Label {
+    -fx-font-family: "Comic Sans MS";
+}
+Text {
+    -fx-font-family: "Comic Sans MS";
+}
+
+CheckBox {
+    -fx-font-family: "Book Antiqua";
+}
+ImageView {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 40;
+}
